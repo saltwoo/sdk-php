@@ -325,7 +325,7 @@ class VGS_Client {
         }
     }
 
-    private function getTokenURL() {
+    protected function getTokenURL() {
         return self::getServerURL().self::_VGS_OAUTH_TOKEN_URL;
     }
 
